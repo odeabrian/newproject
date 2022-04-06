@@ -11,12 +11,14 @@ import {MatFormFieldModule} from '@angular/material/form-field'
 import { MatInputModule } from '@angular/material/input';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 import { HttpClientModule } from '@angular/common/http';
+import { DestinationSelectComponent } from './destination-select/destination-select.component';
 @NgModule({
   declarations: [
     AppComponent,
     SignupComponent,
     SigninComponent,
-    NavigationComponent
+    NavigationComponent,
+    DestinationSelectComponent
   ],
   imports: [
     BrowserModule,
