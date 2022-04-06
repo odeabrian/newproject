@@ -70,7 +70,7 @@ export class DestinationSelectComponent implements OnInit {
 
     // Get map API from Google
     const loader = new Loader({
-      apiKey: "AIzaSyBnlLIYM8tdSWIj2HSbXPh4op11MuepEpI",
+      apiKey: "",
       version: "weekly"
     });
 
